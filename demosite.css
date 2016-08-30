@@ -162,6 +162,12 @@
 					background: #b58 url('LokkingGlazz.svg') 4px 4px no-repeat;
 					background-size: 100% 100%;
 			}
+
+			.pdicon {
+					width:90px;
+					padding-right:8px;
+					vertical-align: middle;
+			}
 			
 /* --------------================################================-------------- *
  *                        Popover Window with Result Table                      *
@@ -230,7 +236,7 @@
 					margin-left:160px;			
 			}
 			
-			img:hover{
+			.photo:hover{
 					position: fixed;
 					left:10%;
 					top:10%;
@@ -244,7 +250,7 @@
 					box-shadow:3px 5px 14px #444;
 			}								
 			
-			img{
+			.photo{
 					height:84px;
 
 					padding-left:10px;
@@ -256,5 +262,10 @@
 
 					margin:20px;
 					box-shadow:1px 2px 4px #444;
-					
+			}
+			
+			.notice {
+					text-decoration:none;
+					display: block;
+					padding:80px;
 			}
