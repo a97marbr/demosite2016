@@ -23,7 +23,12 @@
 					background-color:#285;			
 					color: #fff;
 			}
-					
+
+			.contrastmenualt{
+					background-color:#258;			
+					color: #fff;
+			}
+								
 			.normalbutton{
 					color:#fff;
 					border-right: 3px ridge #946;
@@ -33,6 +38,11 @@
 					transition:0.5s;
 					background-size: 800% 800%;	
 					background-position: 50% 50%;			
+			}
+			
+			.iconbutton{
+					color:#fff;
+					font-size: 12px;
 			}
 			
 			.popunder{
@@ -59,6 +69,8 @@
  *                              Top Menu with Search Box                        *
  * --------------================################================-------------- */
  
+			/* Top Meny Styles */
+			
 			.menu {
 					padding:0px;
 					margin:0px;
@@ -72,7 +84,7 @@
 										
 					box-shadow: 0px 2px 8px #888, 0px 1px 3px #444;
 			}
-
+			
 			.menu ul {
 					padding:0;
 					margin:0;
@@ -93,12 +105,55 @@
 					margin:0;
 					padding:10px 10px;  
 					text-decoration:none;
-
 			}			
 
 			.menu ul li a:hover{
 					background-size: 100% 100%;
 			}
+
+			/* Bottom Menu Styles */
+
+			.bottomenu {
+					padding:0px;
+					margin:0px;
+					
+					position:fixed;
+					z-index:400;
+					left:0px;
+					bottom:0px;
+					width:100%;
+					height:44px;
+										
+					box-shadow: 0px -2px 8px #888, 0px -1px 3px #444;
+			}
+			
+			.bottomenu ul {
+					padding:0;
+					margin:0;
+					padding-top:2px;
+					list-style:none;
+					border:0;
+					float:left;
+					width:100%;
+			}
+
+			.bottomenu ul li {
+					float:left;
+					margin:0;
+					padding:0;
+					border:0;
+					width:30%;
+					text-align:center;
+			}
+
+			.bottomenu ul li a {
+					display:block;
+					margin: auto;
+					padding-top: 0px;  
+					text-decoration:none;
+			}
+			
+			/* Search Box Styling */
 
 			#searchbox{
 					position:absolute;
@@ -174,6 +229,18 @@
 					display:block;					
 			}
 			
+			#map{
+					margin: auto;
+					width: 200px;
+					display:block;
+			}
+
+			#player{
+					margin: auto;
+					width: 65%;
+					display:block;
+			}
+						
 /* --------------================################================-------------- *
  *                        Popover Window with Result Table                      *
  * --------------================################================-------------- */
