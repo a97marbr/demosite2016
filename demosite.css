@@ -7,7 +7,7 @@
 					margin:0px;
 					margin-top:60px;
 
-					font-family:Arial Narrow;
+					font-family:"Arial Narrow";
 			}
 
 			p{
@@ -48,8 +48,8 @@
 			.formbutton{
 					height:44px;
 					box-shadow: 0px 2px 8px #888, 0px 1px 3px #444;	
-					width:180;
-					border: 0;
+					width:100px;
+					border: 0px;
  					border-radius: 0px;				
  					font-size:14px;
 			}
@@ -168,7 +168,7 @@
 					position:absolute;
 					right:0px;
 					height:44px;
-					overflow:none;
+					overflow:hidden;
 			}
 			
 			#searchbox input {
@@ -322,12 +322,8 @@
 					left:10%;
 					top:10%;
 					height:80%;
-
-					-webkit-transform: none; /* Safari and Chrome */
-       		-moz-transform: none; 
-       					
+       		transform: none;			
 					z-index:800;
-
 					box-shadow:3px 5px 14px #444;
 			}								
 			
@@ -350,3 +346,13 @@
 					display: block;
 					padding:80px;
 			}
+			
+			/* --------------================################================-------------- *
+			 *                                     Form                                     *
+			 * --------------================################================-------------- */
+			 .form-label {
+				 text-align:right;
+			 }
+			 .form-submit {
+				 text-align:center;
+			 }
