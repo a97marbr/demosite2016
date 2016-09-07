@@ -10,9 +10,24 @@
 					font-family:Arial Narrow;
 			}
 
+            h1,h2,h3{
+                margin: 0.5cm;   
+            }
+            
+            ul li {
+                
+                margin: 10px;
+            }
+
 			p{
-					font-size:17px;
+					font-size:17px; 
+                    margin: 1cm;
 			}
+
+            th, td {
+                    padding: 25px;
+            }
+            
 
 			.normalmenu{
 					background-color:#825;			
